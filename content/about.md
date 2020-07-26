@@ -1,28 +1,17 @@
 +++
-title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
-date = "2019-02-28"
+title = "About Me"
+description = "Introduction"
+date = "2020-07-26"
 aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
+author = "Ding Luo"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Currently I am a data scientist at [Shell](https://www.shell.com/) based in Amsterdam, the Netherlands. Together with many other excellent colleagues, I try to come up with various data science solutions to help this traditional oil and energy company achieve **digital transformation**, which eventually contributes to the ongoing [**energy transition**](https://www.irena.org/energytransition).  
 
-Hugo makes use of a variety of open source projects including:
+Before joining Shell, I was a PhD researcher at [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/). A quick view of what my research is about is available [here](../post/phd).
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I did my master's and bachelor's at [KTH Royal Institute of Technology](https://www.kth.se/en) and [Beijing Jiaotong University](http://en.njtu.edu.cn/), respectively. To get to know more about my background and experiences, check out my Linkedin profile :point_left: or my [CV:page_facing_up:](https://github.com/dingdl/cv).
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Because of my education and work experiences, traveling :train::car::airplane::ship: has become a big part of my life in the past decade, during which I have lived in places like Beijing, Shenzhen, Stockholm, New York City, Delft and Melbourne, and have traveled to many other places. I hope one day I can travel to more than 100 countries (right now 27).
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
-
+I like various sports, particularly :basketball:. And the Netherlands is a very good place for :bicyclist:.

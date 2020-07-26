@@ -41,10 +41,10 @@ icon = "fa-github"
 title = "GitHub"
 url = "https://github.com/dingdl"
 
-# [[params.socialIcons]]
-# icon = "fa-instagram"
-# title = "GoogleScholar"
-# url = "https://www.instagram.com/"
+[[params.socialIcons]]
+icon = "fa-graduation-cap"
+title = "GoogleScholar"
+url = "https://scholar.google.nl/citations?user=nMzfhAkAAAAJ&hl=en"
 
 [[params.socialIcons]]
 icon = "fa-envelope"
@@ -54,6 +54,12 @@ url = "mailto:luo.ding@outlook.com"
 ## Menu items
 
 [menu]
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
 
   [[menu.main]]
   name = "Home"
@@ -66,9 +72,3 @@ url = "mailto:luo.ding@outlook.com"
   weight = 200
   identifier = "posts"
   url = "/post/"
-
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
