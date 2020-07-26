@@ -1,4 +1,4 @@
-# My personal website
+# Building my personal website
 
 Use [hugo](https://gohugo.io/) to build my personal website.
 
