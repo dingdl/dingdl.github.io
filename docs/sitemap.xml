@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://dingdl.github.io/dingluo/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://dingdl.github.io/dingluo/about/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/dingluo/post/phd/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/dingluo/tags/phd/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/dingluo/post/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/dingluo/tags/research/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/dingluo/tags/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/dingluo/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,17 +68,7 @@
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dingdl.github.io/dingluo/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/dingluo/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/post/placeholder-text/</loc>
+    <loc>https://dingdl.github.io/dingluo/post/_placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,13 +118,8 @@
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/post/emoji-support/</loc>
+    <loc>https://dingdl.github.io/dingluo/post/_emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/dingluo/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
