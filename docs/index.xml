@@ -77,10 +77,10 @@ pectora summo.&lt;/p&gt;</description>
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://dingdl.github.io/dingluo/post/math-typesetting/</link>
+      <link>https://dingdl.github.io/dingluo/templates/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/post/math-typesetting/</guid>
+      <guid>https://dingdl.github.io/dingluo/templates/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
