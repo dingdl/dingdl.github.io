@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Ding Luo</title>
-    <link>https://dingdl.github.io/dingluo/</link>
-    <description>Recent content on Website of Ding Luo</description>
+    <title>Templates on Website of Ding Luo</title>
+    <link>https://dingdl.github.io/dingluo/templates/</link>
+    <description>Recent content in Templates on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dingdl.github.io/dingluo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingdl.github.io/dingluo/templates/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Virtual Environments</title>
-      <link>https://dingdl.github.io/dingluo/post/env/</link>
-      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingdl.github.io/dingluo/post/env/</guid>
-      <description>&lt;p&gt;Manage Python virtual environments with Conda.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://dingdl.github.io/dingluo/about/</link>
-      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingdl.github.io/dingluo/about/</guid>
-      <description>Currently I am a data scientist at Shell based in Amsterdam, the Netherlands.</description>
-    </item>
-    
-    <item>
-      <title>My PhD Project</title>
-      <link>https://dingdl.github.io/dingluo/post/phd/</link>
-      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingdl.github.io/dingluo/post/phd/</guid>
-      <description>&lt;p&gt;To be updated&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dingdl.github.io/dingluo/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingdl.github.io/dingluo/archives/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
@@ -73,15 +37,6 @@
       <guid>https://dingdl.github.io/dingluo/templates/_placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
 pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://dingdl.github.io/dingluo/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingdl.github.io/dingluo/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>

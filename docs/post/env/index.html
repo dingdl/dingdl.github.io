@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Ding Luo | themes </title>
+    <title> Ding Luo | Virtual Environments </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="PhD | Data Scientist">
     
@@ -10,16 +10,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://dingdl.github.io/dingluo/faviconsapple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://dingdl.github.io/dingluo/faviconsfavicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://dingdl.github.io/dingluo/faviconsfavicon-16x16.png">
-    <link rel="canonical" href="https://dingdl.github.io/dingluo/tags/themes/">
-    <link rel="alternate" type="application/rss+xml" href="https://dingdl.github.io/dingluo/tags/themes/index.xml" title="Website of Ding Luo" />
+    <link rel="canonical" href="https://dingdl.github.io/dingluo/post/env/">
     
     
     <script type="text/javascript" src="https://dingdl.github.io/dingluo/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://dingdl.github.io/dingluo/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="themes"/>
-<meta name="twitter:description" content="PhD | Data Scientist"/>
+<meta name="twitter:title" content="Virtual Environments"/>
+<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
 
 </head><body><div class="sidebar animated fadeInDown">
     <div class="logo-title">
@@ -90,22 +89,55 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive animated fadeInDown">
-   
-    <ul class="list-with-title">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Virtual Environments
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Mon, Jul 27, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">1-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>Manage Python virtual environments with Conda.</p>
+<h4 id="check-existing-conda-environments">Check existing Conda environments</h4>
+<pre><code>conda info -e
+conda env list
+</code></pre><h4 id="create-a-new-conda-environment">Create a new Conda environment</h4>
+<pre><code># env_name = my_env, python = 3.8
+conda create -n my_env python=3.8
+</code></pre><h4 id="activate-an-environment">Activate an environment</h4>
+<pre><code># env_name = my_env
+conda activate my_env
+</code></pre><h4 id="add-it-as-a-new-kernel-in-jupyter-notebooklab">Add it as a new kernel in jupyter notebook/lab</h4>
+<p><strong>First enter the target environment using the command above</strong>. Then install IPython kernel in the environment.</p>
+<pre><code>pip install ipykernel
+</code></pre><p>Add it to Jupyter.</p>
+<pre><code>python -m ipykernel install --user --name my_env --display-name &quot;whatever_name&quot;
+</code></pre><h4 id="check-all-the-installed-kernels">Check all the installed kernels</h4>
+<pre><code>jupyter kernelspec list
+</code></pre><h4 id="remove-a-kernel">Remove a kernel</h4>
+<pre><code>jupyter kernelspec uninstall unwanted-kernel
+</code></pre>
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/dingluo/tags/conda/">conda</a><a class="tag" href="/dingluo/tags/python/">python</a><a class="tag" href="/dingluo/tags/environment-management/">environment management</a></span>
+
+      </div>
+    </div>
+
+    
            
-      <div class="listing-title">2019</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://dingdl.github.io/dingluo/templates/markdown-syntax/" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
-              <div class="post-time"><span class="date">Mar 11</span></div>
-            </div>
-          </div>
-    </ul>
     
-    
-  </div>
+</div>
+
 
                 </div>
             </div>

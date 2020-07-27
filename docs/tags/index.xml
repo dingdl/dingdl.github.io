@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dingdl.github.io/dingluo/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>conda</title>
+      <link>https://dingdl.github.io/dingluo/tags/conda/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/dingluo/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment management</title>
+      <link>https://dingdl.github.io/dingluo/tags/environment-management/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/dingluo/tags/environment-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://dingdl.github.io/dingluo/tags/python/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/dingluo/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>phd</title>
