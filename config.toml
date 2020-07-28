@@ -72,3 +72,6 @@ url = "mailto:luo.ding@outlook.com"
   weight = 200
   identifier = "posts"
   url = "/post/"
+
+[markup.goldmark.renderer]
+  unsafe= true # This allows for inserting images with HTML
