@@ -3,162 +3,222 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/</loc>
+    <loc>https://dingdl.github.io/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/data-science/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/development-environment/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/post/ds_win/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/post/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/windows-10/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/post/osrm/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/cloud-computing/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/docker/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/osrm/</loc>
+    <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/conda/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/conda/</loc>
+    <loc>https://dingdl.github.io/tags/environment-management/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/environment-management/</loc>
+    <loc>https://dingdl.github.io/tags/python/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/post/</loc>
+    <loc>https://dingdl.github.io/post/env/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/python/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/dingluo/tags/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/dingluo/post/env/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/dingluo/about/</loc>
+    <loc>https://dingdl.github.io/about/</loc>
     <lastmod>2020-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/defense/</loc>
+    <loc>https://dingdl.github.io/tags/configuration/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/network/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/ssh/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/templates/ssh/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/templates/</loc>
+    <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/defense/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/post/phd/</loc>
+    <loc>https://dingdl.github.io/post/phd/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/phd/</loc>
+    <loc>https://dingdl.github.io/tags/phd/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/research/</loc>
+    <loc>https://dingdl.github.io/tags/research/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/tudelft/</loc>
+    <loc>https://dingdl.github.io/tags/tudelft/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/archives/</loc>
+    <loc>https://dingdl.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/categories/</loc>
+    <loc>https://dingdl.github.io/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/css/</loc>
+    <loc>https://dingdl.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/html/</loc>
+    <loc>https://dingdl.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/markdown/</loc>
+    <loc>https://dingdl.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/templates/markdown-syntax/</loc>
+    <loc>https://dingdl.github.io/templates/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/categories/syntax/</loc>
+    <loc>https://dingdl.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/templates/</loc>
+    <loc>https://dingdl.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/themes/</loc>
+    <loc>https://dingdl.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/dingluo/tags/privacy/</loc>
+    <loc>https://dingdl.github.io/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/templates/rich-content/</loc>
+    <loc>https://dingdl.github.io/templates/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/shortcodes/</loc>
+    <loc>https://dingdl.github.io/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/templates/_placeholder-text/</loc>
+    <loc>https://dingdl.github.io/templates/_placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/text/</loc>
+    <loc>https://dingdl.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/templates/math-typesetting/</loc>
+    <loc>https://dingdl.github.io/templates/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/emoji/</loc>
+    <loc>https://dingdl.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/templates/_emoji-support/</loc>
+    <loc>https://dingdl.github.io/templates/_emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/dingluo/tags/index/</loc>
+    <loc>https://dingdl.github.io/tags/index/</loc>
   </url>
   
 </urlset>

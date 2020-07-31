@@ -2,30 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Website of Ding Luo</title>
-    <link>https://dingdl.github.io/dingluo/post/</link>
+    <link>https://dingdl.github.io/post/</link>
     <description>Recent content in Posts on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dingdl.github.io/dingluo/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingdl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>My Data Science Environment on Windows 10</title>
+      <link>https://dingdl.github.io/post/ds_win/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/post/ds_win/</guid>
+      <description>&lt;p&gt;There are tons of articles/posts on Internet about how to set up a development environment on different OS (Windows, Linux etc.). I want to make this post a place for me to dynamically record how it is on my (corporate) Windows 10.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Build my own routing machine with OSRM</title>
+      <link>https://dingdl.github.io/post/osrm/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/post/osrm/</guid>
+      <description>&lt;p&gt;Recently I need to set up my own routing machine based on OpenStreetMap&amp;hellip; In the end, this turned out to be a very good practice of a number of things, including docker, osrm, cloud computing&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Virtual Environments</title>
-      <link>https://dingdl.github.io/dingluo/post/env/</link>
+      <link>https://dingdl.github.io/post/env/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/post/env/</guid>
+      <guid>https://dingdl.github.io/post/env/</guid>
       <description>&lt;p&gt;Manage Python virtual environments with Conda.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My PhD Project</title>
-      <link>https://dingdl.github.io/dingluo/post/phd/</link>
+      <link>https://dingdl.github.io/post/phd/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/post/phd/</guid>
+      <guid>https://dingdl.github.io/post/phd/</guid>
       <description>&lt;p&gt;Entitled &amp;ldquo;&lt;strong&gt;Data-driven Analysis and Modeling of Public Transport Passenger Flows and Service Networks&lt;/strong&gt;&amp;rdquo;, my PhD project is a combination of data and public transport.&lt;/p&gt;</description>
     </item>
     
