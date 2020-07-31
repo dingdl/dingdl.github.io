@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>markdown on Website of Ding Luo</title>
-    <link>https://dingdl.github.io/tags/markdown/</link>
+    <link>https://dingdl.github.io/dingluo/tags/markdown/</link>
     <description>Recent content in markdown on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dingdl.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingdl.github.io/dingluo/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://dingdl.github.io/templates/markdown-syntax/</link>
+      <link>https://dingdl.github.io/dingluo/templates/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/templates/markdown-syntax/</guid>
+      <guid>https://dingdl.github.io/dingluo/templates/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://dingdl.github.io/templates/_placeholder-text/</link>
+      <link>https://dingdl.github.io/dingluo/templates/_placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/templates/_placeholder-text/</guid>
+      <guid>https://dingdl.github.io/dingluo/templates/_placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
 pectora summo.&lt;/p&gt;</description>
     </item>
