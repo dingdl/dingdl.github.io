@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research on Website of Ding Luo</title>
-    <link>dingluoweb.com/tags/research/</link>
+    <link>https://dingluoweb.com/tags/research/</link>
     <description>Recent content in research on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 21 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="dingluoweb.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingluoweb.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My PhD Project</title>
-      <link>dingluoweb.com/post/phd/</link>
+      <link>https://dingluoweb.com/post/phd/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>dingluoweb.com/post/phd/</guid>
+      <guid>https://dingluoweb.com/post/phd/</guid>
       <description>&lt;p&gt;Entitled &amp;ldquo;&lt;strong&gt;Data-driven Analysis and Modeling of Public Transport Passenger Flows and Service Networks&lt;/strong&gt;&amp;rdquo;, my PhD project is a combination of data and public transport.&lt;/p&gt;</description>
     </item>
     

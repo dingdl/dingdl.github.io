@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on Website of Ding Luo</title>
-    <link>dingluoweb.com/tags/python/</link>
+    <link>https://dingluoweb.com/tags/python/</link>
     <description>Recent content in python on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="dingluoweb.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingluoweb.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Virtual Environments</title>
-      <link>dingluoweb.com/post/env/</link>
+      <link>https://dingluoweb.com/post/env/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>dingluoweb.com/post/env/</guid>
+      <guid>https://dingluoweb.com/post/env/</guid>
       <description>&lt;p&gt;Manage Python virtual environments with Conda.&lt;/p&gt;</description>
     </item>
     

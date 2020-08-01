@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>windows 10 on Website of Ding Luo</title>
-    <link>dingluoweb.com/tags/windows-10/</link>
+    <link>https://dingluoweb.com/tags/windows-10/</link>
     <description>Recent content in windows 10 on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="dingluoweb.com/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingluoweb.com/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Data Science Environment on Windows 10</title>
-      <link>dingluoweb.com/post/ds_win/</link>
+      <link>https://dingluoweb.com/post/ds_win/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>dingluoweb.com/post/ds_win/</guid>
+      <guid>https://dingluoweb.com/post/ds_win/</guid>
       <description>&lt;p&gt;There are tons of articles/posts on Internet about how to set up a development environment on different OS (Windows, Linux etc.). I want to make this post a place for me to dynamically record how it is on my (corporate) Windows 10.&lt;/p&gt;</description>
     </item>
     

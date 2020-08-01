@@ -1,4 +1,4 @@
-baseURL = "dingluoweb.com"
+baseURL = "https://dingluoweb.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Ding Luo"
