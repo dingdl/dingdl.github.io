@@ -1,6 +1,6 @@
-# Building my personal website
+# My personal website
 
-Use [hugo](https://gohugo.io/) to build my personal website: https://dingdl.github.io/dingluo.
+Use [hugo](https://gohugo.io/) to build my personal website: https://dingdl.github.io.
 
 ## How to update the content in a Windows OS.
 
