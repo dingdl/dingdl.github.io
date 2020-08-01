@@ -2,237 +2,237 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Website of Ding Luo</title>
-    <link>https://dingdl.github.io/dingluo/tags/</link>
+    <link>https://dingdl.github.io/tags/</link>
     <description>Recent content in Tags on Website of Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dingdl.github.io/dingluo/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dingdl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>data science</title>
-      <link>https://dingdl.github.io/dingluo/tags/data-science/</link>
+      <link>https://dingdl.github.io/tags/data-science/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/data-science/</guid>
+      <guid>https://dingdl.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development environment</title>
-      <link>https://dingdl.github.io/dingluo/tags/development-environment/</link>
+      <link>https://dingdl.github.io/tags/development-environment/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/development-environment/</guid>
+      <guid>https://dingdl.github.io/tags/development-environment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows 10</title>
-      <link>https://dingdl.github.io/dingluo/tags/windows-10/</link>
+      <link>https://dingdl.github.io/tags/windows-10/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/windows-10/</guid>
+      <guid>https://dingdl.github.io/tags/windows-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud computing</title>
-      <link>https://dingdl.github.io/dingluo/tags/cloud-computing/</link>
+      <link>https://dingdl.github.io/tags/cloud-computing/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/cloud-computing/</guid>
+      <guid>https://dingdl.github.io/tags/cloud-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://dingdl.github.io/dingluo/tags/docker/</link>
+      <link>https://dingdl.github.io/tags/docker/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/docker/</guid>
+      <guid>https://dingdl.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>osrm</title>
-      <link>https://dingdl.github.io/dingluo/tags/osrm/</link>
+      <link>https://dingdl.github.io/tags/osrm/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/osrm/</guid>
+      <guid>https://dingdl.github.io/tags/osrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conda</title>
-      <link>https://dingdl.github.io/dingluo/tags/conda/</link>
+      <link>https://dingdl.github.io/tags/conda/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/conda/</guid>
+      <guid>https://dingdl.github.io/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>environment management</title>
-      <link>https://dingdl.github.io/dingluo/tags/environment-management/</link>
+      <link>https://dingdl.github.io/tags/environment-management/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/environment-management/</guid>
+      <guid>https://dingdl.github.io/tags/environment-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://dingdl.github.io/dingluo/tags/python/</link>
+      <link>https://dingdl.github.io/tags/python/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/python/</guid>
+      <guid>https://dingdl.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>configuration</title>
-      <link>https://dingdl.github.io/dingluo/tags/configuration/</link>
+      <link>https://dingdl.github.io/tags/configuration/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/configuration/</guid>
+      <guid>https://dingdl.github.io/tags/configuration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network</title>
-      <link>https://dingdl.github.io/dingluo/tags/network/</link>
+      <link>https://dingdl.github.io/tags/network/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/network/</guid>
+      <guid>https://dingdl.github.io/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://dingdl.github.io/dingluo/tags/ssh/</link>
+      <link>https://dingdl.github.io/tags/ssh/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/ssh/</guid>
+      <guid>https://dingdl.github.io/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>defense</title>
-      <link>https://dingdl.github.io/dingluo/tags/defense/</link>
+      <link>https://dingdl.github.io/tags/defense/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/defense/</guid>
+      <guid>https://dingdl.github.io/tags/defense/</guid>
       <description></description>
     </item>
     
     <item>
       <title>phd</title>
-      <link>https://dingdl.github.io/dingluo/tags/phd/</link>
+      <link>https://dingdl.github.io/tags/phd/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/phd/</guid>
+      <guid>https://dingdl.github.io/tags/phd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
-      <link>https://dingdl.github.io/dingluo/tags/research/</link>
+      <link>https://dingdl.github.io/tags/research/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/research/</guid>
+      <guid>https://dingdl.github.io/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tudelft</title>
-      <link>https://dingdl.github.io/dingluo/tags/tudelft/</link>
+      <link>https://dingdl.github.io/tags/tudelft/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/tudelft/</guid>
+      <guid>https://dingdl.github.io/tags/tudelft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://dingdl.github.io/dingluo/tags/css/</link>
+      <link>https://dingdl.github.io/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/css/</guid>
+      <guid>https://dingdl.github.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://dingdl.github.io/dingluo/tags/html/</link>
+      <link>https://dingdl.github.io/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/html/</guid>
+      <guid>https://dingdl.github.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://dingdl.github.io/dingluo/tags/markdown/</link>
+      <link>https://dingdl.github.io/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/markdown/</guid>
+      <guid>https://dingdl.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://dingdl.github.io/dingluo/tags/themes/</link>
+      <link>https://dingdl.github.io/tags/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/themes/</guid>
+      <guid>https://dingdl.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://dingdl.github.io/dingluo/tags/privacy/</link>
+      <link>https://dingdl.github.io/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/privacy/</guid>
+      <guid>https://dingdl.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>https://dingdl.github.io/dingluo/tags/shortcodes/</link>
+      <link>https://dingdl.github.io/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/shortcodes/</guid>
+      <guid>https://dingdl.github.io/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>https://dingdl.github.io/dingluo/tags/text/</link>
+      <link>https://dingdl.github.io/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/text/</guid>
+      <guid>https://dingdl.github.io/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>https://dingdl.github.io/dingluo/tags/emoji/</link>
+      <link>https://dingdl.github.io/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/emoji/</guid>
+      <guid>https://dingdl.github.io/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://dingdl.github.io/dingluo/tags/index/</link>
+      <link>https://dingdl.github.io/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dingdl.github.io/dingluo/tags/index/</guid>
+      <guid>https://dingdl.github.io/tags/index/</guid>
       <description></description>
     </item>
     
