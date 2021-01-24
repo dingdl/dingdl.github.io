@@ -12,6 +12,13 @@ tags = [
 +++
 
 Entitled "**Data-driven Analysis and Modeling of Public Transport Passenger Flows and Service Networks**", my PhD project is a combination of data and public transport.
+
+
+<center>
+<img src="../pics/phd/research_objective.png" width = "300" alt="speech"
+align=center />
+</center>
+
 <!--more-->
 
 ### Research Objective

@@ -2,10 +2,11 @@ baseURL = "https://dingluoweb.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Ding Luo"
-theme = "anatole"
+theme = "anatole-0.6.0"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
+ignoreErrors = ["error-remote-getjson"]
 
 # Enable Disqus
 #disqusShortname = ""
@@ -19,10 +20,10 @@ author = "Ding Luo"
 description = "PhD | Data Scientist"
 profilePicture = "images/p.jpg"
 keywords = ""
-favicon = "favicons"
+favicon = ""
 customCss = []
 customJs = []
-mainSections = ["post"]
+mainSections = ["about"]
 images = ["images/site-feature-image.png"]
 
 ## Math settings
@@ -32,22 +33,22 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 [[params.socialIcons]]
-icon = "fa-linkedin"
+icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/dluo/"
 
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/dingdl"
 
 [[params.socialIcons]]
-icon = "fa-graduation-cap"
+icon = "fas fa-graduation-cap"
 title = "GoogleScholar"
 url = "https://scholar.google.nl/citations?user=nMzfhAkAAAAJ&hl=en"
 
 [[params.socialIcons]]
-icon = "fa-envelope"
+icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:luo.ding@outlook.com"
 
@@ -56,10 +57,16 @@ url = "mailto:luo.ding@outlook.com"
 [menu]
 
   [[menu.main]]
-  name = "About"
+  name = "Data Science"
   weight = 300
-  identifier = "about"
-  url = "/about/"
+  identifier = "datascience"
+  url = "/datascience/"
+
+  [[menu.main]]
+  name = "Research"
+  weight = 300
+  identifier = "research"
+  url = "/research/"
 
   [[menu.main]]
   name = "Home"
@@ -67,11 +74,11 @@ url = "mailto:luo.ding@outlook.com"
   weight = 100
   url = "/"
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
+  # [[menu.main]]
+  # name = "Posts"
+  # weight = 200
+  # identifier = "posts"
+  # url = "/post/"
 
 [markup.goldmark.renderer]
   unsafe= true # This allows for inserting images with HTML
