@@ -1,84 +1,179 @@
-baseURL = "https://dingluoweb.com"
-languageCode = "en"
-DefaultContentLanguage = "en"
-title = "Website of Ding Luo"
-theme = "anatole-0.6.0"
-summarylength = 10
-enableEmoji = true
+baseURL = "https://example.com"
+title   = "Ding Luo"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
 enableRobotsTXT = true
-ignoreErrors = ["error-remote-getjson"]
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
 
-# Enable Disqus
-#disqusShortname = ""
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
 
-# Google Analytics
-googleAnalytics = "UA-173574303-1"
+[author]
+  name = "Ding Luo"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
 [params]
-title = "Ding Luo"
-author = "Ding Luo"
-description = "PhD | Data Scientist"
-profilePicture = "images/p.jpg"
-keywords = ""
-favicon = ""
-customCss = []
-customJs = []
-mainSections = ["about"]
-images = ["images/site-feature-image.png"]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
-## Math settings
-[params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+  # Metadata mostly used in document's head
+  # 
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
-## Social links
-[[params.socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://www.linkedin.com/in/dluo/"
+  homeSubtitle = "PhD | Data Scientist"
 
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/dingdl"
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
 
-[[params.socialIcons]]
-icon = "fas fa-graduation-cap"
-title = "GoogleScholar"
-url = "https://scholar.google.nl/citations?user=nMzfhAkAAAAJ&hl=en"
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
 
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:luo.ding@outlook.com"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts_copy.
+  #
+  disableReadOtherPosts = false
 
-## Menu items
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  footerLeft = " "
+  footerRight = " "
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  [params.commento]
+     url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+     path     = "/img/dl.jpg"
+     alt      = "Portrait"
+     maxWidth = "100px"
+
+  # Social icons
+#  [[params.social]]
+#    name = "twitter"
+#    url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:luo.ding@outlook.com"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/dluo/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dingdl"
+
+  [[params.social]]
+    name = "googlescholar"
+    url = "https://scholar.google.nl/citations?user=nMzfhAkAAAAJ&hl=en"
+
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
+
+[languages]
+  [languages.en]
+    subtitle  = ""
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
-
   [[menu.main]]
-  name = "Data Science"
-  weight = 300
-  identifier = "datascience"
-  url = "/datascience/"
-
-  [[menu.main]]
-  name = "Research"
-  weight = 300
-  identifier = "research"
-  url = "/research/"
-
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  # [[menu.main]]
-  # name = "Posts"
-  # weight = 200
-  # identifier = "posts"
-  # url = "/post/"
-
-[markup.goldmark.renderer]
-  unsafe= true # This allows for inserting images with HTML
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+#  [[menu.main]]
+#    identifier = "posts"
+#    name       = "Posts"
+#    url        = "posts/"

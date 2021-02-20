@@ -1,2 +1,4 @@
 *.exe
-themes/
+.idea
+.DS_Store
+themes/hello-friend-ng/
