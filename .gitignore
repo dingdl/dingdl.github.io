@@ -1,2 +1,3 @@
 *.exe
-themes/
+.idea
+.DS_Store

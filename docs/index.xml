@@ -1,127 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Ding Luo</title>
-    <link>https://dingluoweb.com/</link>
-    <description>Recent content on Website of Ding Luo</description>
+    <title>Ding Luo</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://dingluoweb.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Data Science Environment on Windows 10</title>
-      <link>https://dingluoweb.com/post/ds_win/</link>
-      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Creating a New Theme</title>
+      <link>https://example.com/posts_copy/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dingluoweb.com/post/ds_win/</guid>
-      <description>&lt;p&gt;There are tons of articles/posts on Internet about how to set up a development environment on different OS (Windows, Linux etc.). I want to make this post a place for me to dynamically record how it is on my (corporate) Windows 10.&lt;/p&gt;</description>
+      <guid>https://example.com/posts_copy/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
-      <title>Build my own routing machine with OSRM</title>
-      <link>https://dingluoweb.com/post/osrm/</link>
-      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://example.com/posts_copy/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dingluoweb.com/post/osrm/</guid>
-      <description>&lt;p&gt;Recently I need to set up my own routing machine based on OpenStreetMap&amp;hellip; In the end, this turned out to be a very good practice of a number of things, including docker, osrm, cloud computing&amp;hellip;&lt;/p&gt;</description>
+      <guid>https://example.com/posts_copy/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
-      <title>Virtual Environments</title>
-      <link>https://dingluoweb.com/post/env/</link>
-      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dingluoweb.com/post/env/</guid>
-      <description>&lt;p&gt;Manage Python virtual environments with Conda.&lt;/p&gt;</description>
+      <guid>https://example.com/about/</guid>
+      <description>Hello there! Welcome to my personal website. Currently I am a data scientist for Shell based in Amsterdam, the Netherlands. Born and raise in Northwest China, I have spent most of my life in Europe in the past decade, with my master&amp;rsquo;s and PhD obtained respectively from KTH Royal Institue of Technology in Sweden and Delft University of Technology in the Netherlands.
+Since joining Shell in March 2020, I have been working on the following projects:</description>
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://dingluoweb.com/about/</link>
-      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      <title>(Hu)go Template Primer</title>
+      <link>https://example.com/posts_copy/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dingluoweb.com/about/</guid>
-      <description>Currently I am a data scientist at Shell based in Amsterdam, the Netherlands.</description>
+      <guid>https://example.com/posts_copy/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
     </item>
     
     <item>
-      <title>SSH Configuration</title>
-      <link>https://dingluoweb.com/templates/ssh/</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Getting Started with Hugo</title>
+      <link>https://example.com/posts_copy/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dingluoweb.com/templates/ssh/</guid>
-      <description>&lt;p&gt;SSH configuration is important&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My PhD Project</title>
-      <link>https://dingluoweb.com/post/phd/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/post/phd/</guid>
-      <description>&lt;p&gt;Entitled &amp;ldquo;&lt;strong&gt;Data-driven Analysis and Modeling of Public Transport Passenger Flows and Service Networks&lt;/strong&gt;&amp;rdquo;, my PhD project is a combination of data and public transport.&lt;/p&gt;
-&lt;center&gt;
-&lt;img src=&#34;../pics/phd/research_objective.png&#34; width = &#34;300&#34; alt=&#34;speech&#34;
-align=center /&gt;
-&lt;/center&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dingluoweb.com/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://dingluoweb.com/templates/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/templates/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://dingluoweb.com/templates/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/templates/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://dingluoweb.com/templates/_placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/templates/_placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://dingluoweb.com/templates/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/templates/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://dingluoweb.com/templates/_emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingluoweb.com/templates/_emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://example.com/posts_copy/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>
