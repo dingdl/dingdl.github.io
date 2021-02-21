@@ -10,7 +10,9 @@ Then visit `http://localhost:1313` to check out the website.
 
 ## Steps for updating content and rebuild
 #### Compile all the files
-`hugo -D -d docs`
+```
+hugo -D -d docs
+```
 
 `-d docs` makes all the website files go into the folder `docs`.  
 
