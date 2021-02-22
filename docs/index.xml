@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://dingdl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dingdl.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://dingdl.github.io/posts_copy/creating-a-new-theme/</link>
@@ -47,6 +47,17 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://dingdl.github.io/about/</guid>
       <description>Hello there! Welcome to my personal website. I am a researcher and data scientist based in the Netherlands. Born and raise in Northwest China, I have spent most of my life in Europe in the past decade, with my master&amp;rsquo;s and PhD obtained respectively from KTH Royal Institue of Technology in Sweden and Delft University of Technology in the Netherlands.
 Currently I work for Shell on its centralized data science team.</description>
+    </item>
+    
+    <item>
+      <title>posts[0]</title>
+      <link>https://dingdl.github.io/posts/2020/02/posts0/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/posts/2020/02/posts0/</guid>
+      <description>Recently I have found the motto below very motivating, which was quoted by one of our team members when trying to resolve a comment on his pull request.
+So let&amp;rsquo;s kick off this post section and try to build stuff continously and incrementally.
+ </description>
     </item>
     
     <item>

@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Ding Luo</title>
+        <link>https://dingdl.github.io/posts/</link>
+        <description>Recent content in Posts on Ding Luo</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://dingdl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>posts[0]</title>
+            <link>https://dingdl.github.io/posts/2020/02/posts0/</link>
+            <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://dingdl.github.io/posts/2020/02/posts0/</guid>
+            <description>Recently I have found the motto below very motivating, which was quoted by one of our team members when trying to resolve a comment on his pull request.
+So let&amp;rsquo;s kick off this post section and try to build stuff continously and incrementally.
+ </description>
+            <content type="html"><![CDATA[<p>Recently I have found the motto below very motivating,
+which was quoted by one of our team members when trying to resolve a comment on his pull request.</p>
+<p>So let&rsquo;s kick off this post section and try to build stuff continously and incrementally.</p>
+<center>
+<img src="../../../../img/quote.jpg" width = "700" alt="quote" align=center />
+</center>]]></content>
+        </item>
+        
+    </channel>
+</rss>

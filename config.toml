@@ -170,17 +170,18 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
+    identifier = "research"
+    name       = "Research"
+    url        = "research/"
+  [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "research"
-    name       = "Research"
-    url        = "research/"
-#  [[menu.main]]
-#    identifier = "posts"
-#    name       = "Posts"
-#    url        = "posts/"
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+
 
 [markup.goldmark.renderer]
   unsafe= true # This allows for inserting images with HTML

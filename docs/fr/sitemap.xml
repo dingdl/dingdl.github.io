@@ -103,26 +103,6 @@
   </url>
   
   <url>
-    <loc>https://dingdl.github.io/fr/categories/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/fr/posts_copy/migrer-vers-hugo-depuis-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dingdl.github.io/posts_copy/migrate-from-jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://dingdl.github.io/fr/posts_copy/migrer-vers-hugo-depuis-jekyll/"
-                />
-  </url>
-  
-  <url>
     <loc>https://dingdl.github.io/fr/series/</loc>
     <xhtml:link
                 rel="alternate"

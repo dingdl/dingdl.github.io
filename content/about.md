@@ -10,15 +10,15 @@ Hello there! Welcome to my personal website. I am a researcher and data scientis
 Born and raise in Northwest China, I have spent most of my life in Europe in the past decade, with my master's 
 and PhD obtained respectively from KTH Royal Institue of Technology in Sweden and Delft University of Technology in the Netherlands.
 
-Currently I work for Shell on its centralized data science team. My interests lie in combining smart mobility and energy transition with digitalization. 
+Currently I work for Shell on its centralized data science team. I am particularly interested in the digitalization of mobility and energy sectors.
+
 
 My project experience includes:
 - Road safety analytics with [IVMS data](https://en.wikipedia.org/wiki/IVMS) (Joint project with Microsoft)
 - Road transport analytics on Shell's retail fuel products for the [DACH region](https://en.wiktionary.org/wiki/DACH)
 - Predictive maintenance of compressors with process information (PI) tag data
 
-During my PhD, I worked on two EU Horizon 2020 R&D projects which fully funded my research:
-[research]('/')
+During my PhD, I worked on two EU Horizon 2020 R&D projects which fully funded my research.
 
 - [SETA](http://setamobility.weebly.com/): An open, sustainable, ubiquitous data and service ecosystem for efficient, effective, safe, resilient mobility in metropolitan areas
 - [My-TRAC](http://www.my-trac.eu/): research and development of user-centric services to enhance the passenger multimodal door-to-door experience
