@@ -1,10 +1,12 @@
-baseURL = "dingdl.github.io"
+baseURL = "https://dldingluo.com"
 title   = "Ding Luo"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
+# Enable for syntax highlighting
+PygmentsUseClasses = true
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "monokailight"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
