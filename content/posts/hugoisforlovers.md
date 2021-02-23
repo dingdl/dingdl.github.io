@@ -19,11 +19,22 @@ series = ["Hugo 101"]
 +++
 
 ```python
+
+import os
+
+from pyspark.sql import SparkSession
+
 spark = SparkSession.builder \
     .master("local") \
     .appName("SparkTest") \
     .config("k1", "v1") \
     .getOrCreate()
+
+
+
+# Specify the filepath of the sample data. This requires absolute path with 'file://' in the beginning
+folderpath = os.path.abspath(os.getcwd())
+filepath = ''.join(['file://', folderpath, '/SampleData.csv'])
 ```
 
 ## Step 1. Install Hugo

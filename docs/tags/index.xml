@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ding Luo</title>
-    <link>dldingluo.com/tags/</link>
+    <link>dingdl.github.io/tags/</link>
     <description>Recent content in Tags on Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="dldingluo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="dingdl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
-      <link>dldingluo.com/tags/development/</link>
+      <link>dingdl.github.io/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>dldingluo.com/tags/development/</guid>
+      <guid>dingdl.github.io/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>dldingluo.com/tags/go/</link>
+      <link>dingdl.github.io/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>dldingluo.com/tags/go/</guid>
+      <guid>dingdl.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>dldingluo.com/tags/golang/</link>
+      <link>dingdl.github.io/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>dldingluo.com/tags/golang/</guid>
+      <guid>dingdl.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>dldingluo.com/tags/hugo/</link>
+      <link>dingdl.github.io/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>dldingluo.com/tags/hugo/</guid>
+      <guid>dingdl.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>dldingluo.com/tags/templates/</link>
+      <link>dingdl.github.io/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>dldingluo.com/tags/templates/</guid>
+      <guid>dingdl.github.io/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>dldingluo.com/tags/themes/</link>
+      <link>dingdl.github.io/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>dldingluo.com/tags/themes/</guid>
+      <guid>dingdl.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
