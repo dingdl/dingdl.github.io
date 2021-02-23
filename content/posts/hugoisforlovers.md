@@ -18,16 +18,18 @@ series = ["Hugo 101"]
   name = "Hugo Authors"
 +++
 
+```python
+spark = SparkSession.builder \
+    .master("local") \
+    .appName("SparkTest") \
+    .config("k1", "v1") \
+    .getOrCreate()
+```
 
 ## Step 1. Install Hugo
 
-
-```javascript
-  $(document).ready(function() {
-    console.log('Ready!');
-  });
-```
-
+Go to [Hugo releases](https://github.com/spf13/hugo/releases) and download the
+appropriate version for your OS and architecture.
 
 Save it somewhere specific as we will be using it in the next step.
 
