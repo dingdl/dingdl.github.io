@@ -6,15 +6,111 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://dldingluo.com/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>posts[0]</title>
-            <link>https://dldingluo.com/posts/2020/02/posts0/</link>
-            <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+            <title>101 Series - Unit Testing</title>
+            <link>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</link>
+            <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
             
-            <guid>https://dldingluo.com/posts/2020/02/posts0/</guid>
+            <guid>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</guid>
+            <description>On my recent project, I have been learning a bunch of new things, which from my very own perspective are crucial to someone who wants to become a full-fledged data scientist (i.e., research &amp;amp; development). I am really excited about learning and practicing these new tools and skills on the job, and therefore decide to create my personal 101 series on them. The plan is to continously update and improve the content.</description>
+            <content type="html"><![CDATA[<p>On my recent project, I have been learning a bunch of new things, which from my very own perspective are crucial to
+someone who wants to become a full-fledged data scientist (i.e., research &amp; development). I am really excited about learning and practicing these new
+tools and skills on the job, and therefore decide to create my personal 101 series on them. The plan is to continously
+update and improve the content.</p>
+<p>In this very first 101 series post, let&rsquo;s look at unit testing with Python.</p>
+<h2 id="why-unit-testing">Why unit testing?</h2>
+<p>I am definitely not an experienced software developer, and never seriously spent time writing unit tests
+on my functions and modules (tried to learn once but gave up). I don&rsquo;t want to repeat what Google tells us
+about the importance of unit testing, but so far I have at least gained some better understanding through
+my own experience about why unit testing could be benefical:</p>
+<ul>
+<li>It helps you better design your code. If you find a function hard to be tested, then maybe the function
+is simply too complex (it does too many things). I find it useful to avoid writing really long functions.</li>
+<li>You gain more confidence in what you have developed. Data ingestion and processing pipelines could easily
+end up with so many layers. Having unit tests on individual functions would just enable us to move forward
+without worring about the data engineering foundation we build evey other second.</li>
+</ul>
+<h2 id="setup">Setup</h2>
+<p>I use <code>unittest</code> as the testing framework
+and <code>pytest</code> as the <a href="https://docs.pytest.org/en/stable/unittest.html">test runner</a>.
+Since <code>pytest</code> does not come with Python by default, we do need to first get <code>pytest</code> installed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">pip</span> <span class="n">install</span> <span class="n">pytest</span>
+</code></pre></div><h2 id="my-learning-example">My learning example</h2>
+<p>I created the following example (which is probably not a good one) with the main purpose to demonstrate <code>patch()</code> provided by <code>unittest.mock</code>.</p>
+<p>In the project folder, there are three files listed as below.</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="p">|</span>- my_module.py
+<span class="p">|</span>- test_my_module.py 
+<span class="p">|</span>- SampleData.csv
+</code></pre></div><p>And below is my module for loading data with <code>pandas</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># my_module.py</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+
+<span class="n">INPUT_FOLDERPATH</span> <span class="o">=</span> <span class="s1">&#39;./&#39;</span>
+
+
+<span class="k">class</span> <span class="nc">DataLoader</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">filename</span> <span class="o">=</span> <span class="n">filename</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">filepath</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_filepath</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">get_filepath</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">INPUT_FOLDERPATH</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">filename</span><span class="p">])</span>
+
+    <span class="k">def</span> <span class="nf">load_data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filepath</span><span class="p">)</span>
+</code></pre></div><p>If I run the following lines:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">data_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="s1">&#39;SampleData.csv&#39;</span><span class="p">)</span>
+<span class="n">sample_df</span> <span class="o">=</span> <span class="n">data_loader</span><span class="o">.</span><span class="n">load_data</span><span class="p">()</span>
+<span class="n">sample_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</code></pre></div><p>I can the loaded dataframe as below.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python">  <span class="n">OrderDate</span>   <span class="n">Region</span>      <span class="n">Rep</span>    <span class="n">Item</span>  <span class="n">Units</span>  <span class="n">Unit</span> <span class="n">Cost</span>     <span class="n">Total</span>
+<span class="mi">0</span>    <span class="mi">1</span><span class="o">/</span><span class="mi">6</span><span class="o">/</span><span class="mi">19</span>     <span class="n">East</span>    <span class="n">Jones</span>  <span class="n">Pencil</span>     <span class="mi">95</span>       <span class="mf">1.99</span>   <span class="mf">189.05</span> 
+<span class="mi">1</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">23</span><span class="o">/</span><span class="mi">19</span>  <span class="n">Central</span>   <span class="n">Kivell</span>  <span class="n">Binder</span>     <span class="mi">50</span>      <span class="mf">19.99</span>   <span class="mf">999.50</span> 
+<span class="mi">2</span>    <span class="mi">2</span><span class="o">/</span><span class="mi">9</span><span class="o">/</span><span class="mi">19</span>  <span class="n">Central</span>  <span class="n">Jardine</span>  <span class="n">Pencil</span>     <span class="mi">36</span>       <span class="mf">4.99</span>   <span class="mf">179.64</span> 
+<span class="mi">3</span>   <span class="mi">2</span><span class="o">/</span><span class="mi">26</span><span class="o">/</span><span class="mi">19</span>  <span class="n">Central</span>     <span class="n">Gill</span>     <span class="n">Pen</span>     <span class="mi">27</span>      <span class="mf">19.99</span>   <span class="mf">539.73</span> 
+<span class="mi">4</span>   <span class="mi">3</span><span class="o">/</span><span class="mi">15</span><span class="o">/</span><span class="mi">19</span>     <span class="n">West</span>  <span class="n">Sorvino</span>  <span class="n">Pencil</span>     <span class="mi">56</span>       <span class="mf">2.99</span>   <span class="mf">167.44</span> 
+</code></pre></div><p>Then in my <code>test_my_module.py</code> file, I have the following unit test functions. The key is to patch
+dependency variables and functions so that only what the functions are designed to do are tested.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">unittest.mock</span> <span class="kn">import</span> <span class="n">patch</span>
+
+<span class="kn">from</span> <span class="nn">my_module</span> <span class="kn">import</span> <span class="n">DataLoader</span>
+
+
+<span class="nd">@patch</span><span class="p">(</span><span class="s1">&#39;my_module.INPUT_FOLDERPATH&#39;</span><span class="p">,</span> <span class="s1">&#39;test/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test_get_filepath</span><span class="p">():</span>
+    <span class="n">data_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="s1">&#39;test.csv&#39;</span><span class="p">)</span>
+    <span class="n">actual</span> <span class="o">=</span> <span class="n">data_loader</span><span class="o">.</span><span class="n">get_filepath</span><span class="p">()</span>
+    <span class="n">expected</span> <span class="o">=</span> <span class="s1">&#39;test/test.csv&#39;</span>
+    <span class="k">assert</span> <span class="n">actual</span> <span class="o">==</span> <span class="n">expected</span>
+
+
+<span class="nd">@patch</span><span class="p">(</span><span class="s1">&#39;my_module.pd.read_csv&#39;</span><span class="p">)</span>
+<span class="nd">@patch</span><span class="p">(</span><span class="s1">&#39;my_module.DataLoader.get_filepath&#39;</span><span class="p">,</span> <span class="n">return_value</span><span class="o">=</span><span class="s1">&#39;testpath&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test_load_data</span><span class="p">(</span><span class="n">mock_get_filepath</span><span class="p">,</span> <span class="n">mock_read_csv</span><span class="p">):</span>
+    <span class="n">data_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="s1">&#39;test.csv&#39;</span><span class="p">)</span>
+    <span class="n">mock_get_filepath</span><span class="o">.</span><span class="n">assert_called_once</span><span class="p">()</span>
+    <span class="n">data_loader</span><span class="o">.</span><span class="n">load_data</span><span class="p">()</span>
+    <span class="n">mock_read_csv</span><span class="o">.</span><span class="n">assert_called_once</span><span class="p">()</span>
+    <span class="n">mock_read_csv</span><span class="o">.</span><span class="n">assert_called_once_with</span><span class="p">(</span><span class="s1">&#39;testpath&#39;</span><span class="p">)</span>
+</code></pre></div><p>Now let&rsquo;s run the test. In the terminal, go to the folder and run the following</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">pytest -v test_my_module.py
+</code></pre></div><p>Our tests should pass.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">collected</span> <span class="mi">2</span> <span class="n">items</span>
+
+<span class="n">test_my_module</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">test_get_filepath</span> <span class="n">PASSED</span>
+<span class="n">test_my_module</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">test_load_data</span> <span class="n">PASSED</span>
+</code></pre></div>]]></content>
+        </item>
+        
+        <item>
+            <title>posts[0]</title>
+            <link>https://dldingluo.com/posts/2021/02/posts0/</link>
+            <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://dldingluo.com/posts/2021/02/posts0/</guid>
             <description>Recently I have found the motto below very motivating, which was quoted by one of our team members when trying to resolve a comment on his pull request.
 So let&amp;rsquo;s kick off this post section and try to build stuff continously and incrementally.
  </description>

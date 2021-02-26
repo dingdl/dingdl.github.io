@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Ding Luo</title>
+    <link>https://dldingluo.com/categories/python/</link>
+    <description>Recent content in python on Ding Luo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dldingluo.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>101 Series - Unit Testing</title>
+      <link>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</guid>
+      <description>On my recent project, I have been learning a bunch of new things, which from my very own perspective are crucial to someone who wants to become a full-fledged data scientist (i.e., research &amp;amp; development). I am really excited about learning and practicing these new tools and skills on the job, and therefore decide to create my personal 101 series on them. The plan is to continously update and improve the content.</description>
+    </item>
+    
+  </channel>
+</rss>

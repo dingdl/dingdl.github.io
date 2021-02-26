@@ -1,5 +1,5 @@
 +++
-title = "PySpark & Databricks 101"
+title = "101 Series - PySpark and Databricks"
 description = ""
 type = ["posts","post"]
 tags = [
@@ -9,7 +9,7 @@ tags = [
     "themes",
     "development",
 ]
-date = "2021-02-25"
+date = "2021-03-26"
 categories = [
     "Development",
     "golang",
@@ -44,31 +44,39 @@ details can be found in the [Go docs][gohtmltemplate].
 
 
 ```python
-import pandas as pd
-from unittest.mock import 
+def trajectory_df_to_geojson(df, trip_id_column, 
+                             properties: tuple, timestamp, lat, lon):
+    geojson = {
+        "type": "FeatureCollection",
+        "features": []
+    }
+    ls_trip_id = df[trip_id_column].unique().tolist()
+    for trip_id in ls_trip_id:
+        tmp_df = df[df[trip_id_column] == trip_id].copy()
+        tmp_df.sort_values(by=timestamp, inplace=True)
+        cur_feature = {
+            "type": "Feature", 
+            "properties": {}, 
+            "geometry": {"type": "LineString"}
+        }
+        
+        for prop in properties:
+            prop_value = str(tmp_df[prop].iloc[0])
+            cur_feature["properties"][prop] = prop_value
+        coords = []
 
-df = pd.read_csv(filepath)
-print('test')
+        for _, row in tmp_df.iterrows():
+            dt = str(row[timestamp])
+            unix_time = int(convert_dt_to_unix_time(dt))
+            longitude = round(row[lon], 6)
+            latitude = round(row[lat], 6)
+            cur_data = [longitude, latitude, 0, unix_time]
+            coords.append(cur_data)
+        cur_feature["geometry"]["coordinates"] = coords
+        geojson["features"].append(cur_feature)
 
-if x > 3:
-    print('test')
-else:
-    raise
-
-@patch
-def 
+    return geojson
 ```
-
-<pre>
-    <code class="language-python">
-print('test')
-df == bf
-
-if a >= 3:
-
-    </code>
-
-</pre>
 
 
 

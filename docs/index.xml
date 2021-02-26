@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dldingluo.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dldingluo.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://dldingluo.com/posts_copy/creating-a-new-theme/</link>
@@ -30,6 +30,26 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>101 Series - Unit Testing</title>
+      <link>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</guid>
+      <description>On my recent project, I have been learning a bunch of new things, which from my very own perspective are crucial to someone who wants to become a full-fledged data scientist (i.e., research &amp;amp; development). I am really excited about learning and practicing these new tools and skills on the job, and therefore decide to create my personal 101 series on them. The plan is to continously update and improve the content.</description>
+    </item>
+    
+    <item>
+      <title>posts[0]</title>
+      <link>https://dldingluo.com/posts/2021/02/posts0/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/posts/2021/02/posts0/</guid>
+      <description>Recently I have found the motto below very motivating, which was quoted by one of our team members when trying to resolve a comment on his pull request.
+So let&amp;rsquo;s kick off this post section and try to build stuff continously and incrementally.
+ </description>
+    </item>
+    
+    <item>
       <title>Research</title>
       <link>https://dldingluo.com/research/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
@@ -47,17 +67,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://dldingluo.com/about/</guid>
       <description>Hello there! Welcome to my personal website. I am a researcher and data scientist based in the Netherlands. Born and raise in Northwest China, I have spent most of my life in Europe in the past decade, with my master&amp;rsquo;s and PhD obtained respectively from KTH Royal Institue of Technology in Sweden and Delft University of Technology in the Netherlands.
 Currently I work for Shell on its centralized data science team.</description>
-    </item>
-    
-    <item>
-      <title>posts[0]</title>
-      <link>https://dldingluo.com/posts/2020/02/posts0/</link>
-      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dldingluo.com/posts/2020/02/posts0/</guid>
-      <description>Recently I have found the motto below very motivating, which was quoted by one of our team members when trying to resolve a comment on his pull request.
-So let&amp;rsquo;s kick off this post section and try to build stuff continously and incrementally.
- </description>
     </item>
     
     <item>
