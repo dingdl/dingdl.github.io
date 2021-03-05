@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dldingluo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dldingluo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data analytics</title>
+      <link>https://dldingluo.com/tags/data-analytics/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/tags/data-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geospatial</title>
+      <link>https://dldingluo.com/tags/geospatial/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/tags/geospatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gps</title>
+      <link>https://dldingluo.com/tags/gps/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/tags/gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kepler.gl</title>
+      <link>https://dldingluo.com/tags/kepler.gl/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/tags/kepler.gl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>https://dldingluo.com/tags/visualization/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dldingluo.com/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>101 series</title>
       <link>https://dldingluo.com/tags/101-series/</link>
@@ -50,51 +95,6 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://dldingluo.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://dldingluo.com/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dldingluo.com/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://dldingluo.com/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dldingluo.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://dldingluo.com/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dldingluo.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>https://dldingluo.com/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dldingluo.com/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://dldingluo.com/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dldingluo.com/tags/themes/</guid>
       <description></description>
     </item>
     

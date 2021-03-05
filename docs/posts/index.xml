@@ -6,8 +6,97 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://dldingluo.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Preparing GPS data for kepler.gl trip visualization</title>
+            <link>https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</link>
+            <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</guid>
+            <description>Over the past years I have been using kepler.gl more and more often for geospatial visualiztion. The reason is just simple: powerful, easy, fast. It serves as a perfect visualization tool for EDA tasks. Very often when I show the visualization to my stakeholders, especially those who are from the traditional business side, they are immediately impressed!
+In this post, I want to simply share some python scripts for preparing GPS trajectory data for kepler.</description>
+            <content type="html"><![CDATA[<p>Over the past years I have been using <a href="https://kepler.gl/">kepler.gl</a> more and more often for geospatial visualiztion. The reason is
+just simple: powerful, easy, fast. It serves as a perfect visualization tool for EDA tasks. Very often when I show
+the visualization to my stakeholders, especially those who are from the traditional business side, they are immediately
+impressed!</p>
+<p>In this post, I want to simply share some python scripts for preparing GPS trajectory data for kepler.gl&rsquo;s <a href="https://docs.kepler.gl/docs/user-guides/c-types-of-layers/k-trip">trip
+visualization feature</a>. This would help because
+my experience is that most GPS trajectory data would share a similar structure with the key columns of trip ID, timestamp,
+latitude, and longitude. Such data are always stored and shared in a tabular form, thus could be directly loaded
+as a pandas dataframe. What the python scripts do is to further convert such a dataframe to the geojson file required by
+kepler.gl.</p>
+<p>This post is inspired by <a href="https://geoffboeing.com/2015/10/exporting-python-data-geojson/">one of the Geoff Boeing&rsquo;s posts</a>.
+(Check out Geoff Boeing&rsquo;s awesome research and open source tool <a href="https://github.com/gboeing/osmnx">osmnx</a> - ABSOLUTELY
+a game changer for urban analytics!)
+I modified his code by adding a time conversion function (timestamp to unix time string) and making the geojson
+output compatible with kepler.gl&rsquo;s requirement.</p>
+<p>The functions used are shown below.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+
+
+<span class="k">def</span> <span class="nf">timestamp2unixtime</span><span class="p">(</span><span class="n">dt</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="s2">&#34;&#34;&#34;
+</span><span class="s2">    Convert a &#34;Date Time&#34; string to unix time string
+</span><span class="s2">    https://en.wikipedia.org/wiki/Unix_time
+</span><span class="s2">    Example:
+</span><span class="s2">        &#39;2021-02-25 17:18:30&#39; -&gt; 1614269910
+</span><span class="s2">    &#34;&#34;&#34;</span>
+    <span class="kn">import</span> <span class="nn">time</span>
+    <span class="n">new_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">dt</span><span class="p">,</span> <span class="s2">&#34;%Y-%m-</span><span class="si">%d</span><span class="s2"> %H:%M:%S&#34;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">mktime</span><span class="p">(</span><span class="n">new_time</span><span class="p">))</span>
+
+
+<span class="k">def</span> <span class="nf">df_to_geojson</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">properties</span><span class="p">,</span> <span class="n">trip_id</span><span class="p">,</span> <span class="n">timestamp</span><span class="p">,</span> <span class="n">lat</span><span class="p">,</span> <span class="n">lon</span><span class="p">):</span>
+    <span class="n">geojson</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;FeatureCollection&#34;</span><span class="p">,</span>
+        <span class="s2">&#34;features&#34;</span><span class="p">:</span> <span class="p">[]</span>
+    <span class="p">}</span>
+    <span class="n">ls_trip_id</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">trip_id</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">trip_id</span> <span class="ow">in</span> <span class="n">ls_trip_id</span><span class="p">:</span>
+        <span class="n">tmp_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">trip_id</span><span class="p">]</span> <span class="o">==</span> <span class="n">trip_id</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="n">tmp_df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="n">timestamp</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">cur_feature</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Feature&#34;</span><span class="p">,</span> 
+            <span class="s2">&#34;properties&#34;</span><span class="p">:</span> <span class="p">{},</span> 
+            <span class="s2">&#34;geometry&#34;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;LineString&#34;</span><span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">for</span> <span class="n">prop</span> <span class="ow">in</span> <span class="n">properties</span><span class="p">:</span>
+            <span class="n">prop_value</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">tmp_df</span><span class="p">[</span><span class="n">prop</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">cur_feature</span><span class="p">[</span><span class="s2">&#34;properties&#34;</span><span class="p">][</span><span class="n">prop</span><span class="p">]</span> <span class="o">=</span> <span class="n">prop_value</span>
+        
+        <span class="n">coords</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">tmp_df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+            <span class="n">dt</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="n">timestamp</span><span class="p">])</span>
+            <span class="n">unix_time</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">timestamp2unixtime</span><span class="p">(</span><span class="n">dt</span><span class="p">))</span>
+            <span class="n">longitude</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="n">lon</span><span class="p">],</span> <span class="mi">6</span><span class="p">)</span>
+            <span class="n">latitude</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="n">lat</span><span class="p">],</span> <span class="mi">6</span><span class="p">)</span>
+            <span class="k">if</span> <span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">unix_time</span><span class="p">)</span> \
+                <span class="ow">and</span> <span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">longitude</span><span class="p">)</span> \ 
+                <span class="ow">and</span> <span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">latitude</span><span class="p">):</span>
+                <span class="n">point</span> <span class="o">=</span> <span class="p">[</span><span class="n">longitude</span><span class="p">,</span> <span class="n">latitude</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">unix_time</span><span class="p">]</span>
+                <span class="n">coords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">point</span><span class="p">)</span>
+        <span class="n">cur_feature</span><span class="p">[</span><span class="s2">&#34;geometry&#34;</span><span class="p">][</span><span class="s2">&#34;coordinates&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">coords</span>
+        <span class="n">geojson</span><span class="p">[</span><span class="s2">&#34;features&#34;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cur_feature</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">geojson</span>
+
+
+<span class="k">def</span> <span class="nf">save_geojson_file</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">geojson</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">geojson</span><span class="p">,</span> <span class="n">fp</span><span class="p">)</span>
+</code></pre></div><p>To show an example, I found some cycling GPS data used in my master&rsquo;s thesis research back in Stockholm (-_-).
+I will try to share the dataset as well.
+But here we go with the cool visualization of all cycling trips!</p>
+<center>
+<img src="../../../../img/cyclists.gif" width = "700" alt="quote" align=center />
+</center>
+]]></content>
+        </item>
         
         <item>
             <title>101 Series - Unit Testing</title>

@@ -23,18 +23,8 @@
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/101-series/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dldingluo.com/categories/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -48,13 +38,13 @@
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/data-science/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <loc>https://dldingluo.com/tags/data-analytics/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://dldingluo.com/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -68,28 +58,38 @@
   </url>
   
   <url>
+    <loc>https://dldingluo.com/tags/geospatial/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/tags/gps/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dldingluo.com/series/hugo-101/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/tags/kepler.gl/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://dldingluo.com/posts/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/python/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/categories/python/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <loc>https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://dldingluo.com/series/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -104,7 +104,7 @@
   
   <url>
     <loc>https://dldingluo.com/tags/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -115,6 +115,41 @@
                 hreflang="en"
                 href="https://dldingluo.com/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/tags/visualization/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/categories/visualiztion/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/tags/101-series/</loc>
+    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</loc>
+    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/tags/data-science/</loc>
+    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/tags/python/</loc>
+    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dldingluo.com/categories/python/</loc>
+    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
