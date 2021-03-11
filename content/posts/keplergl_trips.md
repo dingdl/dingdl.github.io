@@ -98,7 +98,10 @@ def save_geojson_file(filename, geojson):
 
 To show an example, I found some cycling GPS data used in my master's thesis research back in Stockholm (-_-).
 I will try to share the dataset as well.
-But here we go with the cool visualization of all cycling trips!
+
+Checkout the map [here](../../../cyclist_trips.html).
+
+Below is a quick gif demo.
 <center>
 <img src="../../../../img/cyclists.gif" width = "700" alt="quote" align=center />
 </center>
