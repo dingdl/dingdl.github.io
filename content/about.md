@@ -1,22 +1,28 @@
 +++
-title = "About"
+title = "About Me"
 date = "2021-02-20"
 aliases = ["introduction"]
 [ author ]
   name = "Ding Luo"
 +++
 
-Hello there! Welcome to my personal website. I am a researcher and data scientist based in the Netherlands. 
-Born and raise in Northwest China, I have spent most of my life in Europe in the past decade, with my master's 
-and PhD obtained respectively from KTH Royal Institue of Technology in Sweden and Delft University of Technology in the Netherlands.
+Hello there! Welcome to my personal website. I am a (researcher-turned) data scientist based in the Netherlands.
+Currently I work for Shell primarily in the space of E-Mobility data analytics. I joined Shell as an [AI resident](https://www.shell.com/energy-and-innovation/digitalisation/digital-technologies/shell-ai/shell-ai-residency-programme.html) straight
+after after completing my PhD program at TU Delft. Check out the [research page](../research) for more details about what I did to earn
+the title of Dr.
 
-Currently I work for Shell on its centralized data science team. I am particularly interested in the digitalization of mobility and energy sectors.
+In addition to my full-time role, I am also a guest researcher hosted by TU Delft's
+[AI for Mobility (AIM) Lab](https://www.tudelft.nl/citg/aim). The main purpose of this 0-fte role is to seek research and education collaboration 
+opportunities at the intersection of data science, energy and mobility. 
 
 
-My project experience includes:
-- Road safety analytics with [IVMS data](https://en.wikipedia.org/wiki/IVMS) (Joint project with Microsoft)
-- Road transport analytics on Shell's retail fuel products for the [DACH region](https://en.wiktionary.org/wiki/DACH)
-- Predictive maintenance of compressors with process information (PI) tag data
+[comment]: <> (My project experience includes:)
+
+[comment]: <> (- Road safety analytics with [IVMS data]&#40;https://en.wikipedia.org/wiki/IVMS&#41; &#40;Joint project with Microsoft&#41;)
+
+[comment]: <> (- Road transport analytics on Shell's retail fuel products for the [DACH region]&#40;https://en.wiktionary.org/wiki/DACH&#41;)
+
+[comment]: <> (- Predictive maintenance of compressors with process information &#40;PI&#41; tag data)
 
 During my PhD, I worked on two EU Horizon 2020 R&D projects which fully funded my research.
 
@@ -24,7 +30,7 @@ During my PhD, I worked on two EU Horizon 2020 R&D projects which fully funded m
 - [My-TRAC](http://www.my-trac.eu/): research and development of user-centric services to enhance the passenger multimodal door-to-door experience
 
 My technology experience includes:
-- **Languages**: Python, HTML
+- **Languages**: Python, SQL
 - **Cloud Platforms**: Azure (DevOps, Databricks, Data Lake Storage, Machine Learning), AWS, GCP
 - **Data Analytics**: pandas, PySpark, NumPy, networkx, scikit-learn, TensorFlow, PyTorch
 - **Geospatial Anlaytics**: OpenStreetMap (osmnx, osrm), geopandas

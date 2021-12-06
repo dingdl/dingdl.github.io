@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "PhD | Data Scientist"
+  homeSubtitle = "PhD | Researcher | Data Scientist"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -177,12 +177,12 @@ disableHugoGeneratorInject = false
     url        = "research/"
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "About Me"
     url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+#  [[menu.main]]
+#    identifier = "posts"
+#    name       = "Posts"
+#    url        = "posts/"
 
 
 [markup.goldmark.renderer]
