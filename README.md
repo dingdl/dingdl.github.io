@@ -2,26 +2,36 @@
 
 Use [hugo](https://gohugo.io/) to build my website: https://dingdl.github.io.
 
+## How to update deployment?
+The webpage is hosted through [GitHub Pages](https://pages.github.com/). Currently no 
+personal domain is used. If a domain needs to be used, the `baseURL` in `config.toml` 
+has to be first modified and the hugo files need to be updated before being pushed to
+the remote repo.
+
+Current setting:
+```
+baseURL = "https://dingdl.github.io"
+```
+
+To update the deployment, the following step of compiling all 
+the hugo files is needed.
+```
+hugo -D -d docs
+```
+`-d docs` makes all the website files go into the folder `docs`.  
+
+Then push all the changes straight to the remote `master` branch.
+```
+git add .
+git commit -m "Update content"
+git push origin master
+```
+
 ## Run local development server
 ```
 hugo server
 ```
 Then visit `http://localhost:1313` to check out the website.
-
-## Steps for updating content and rebuild
-#### Compile all the files
-```
-hugo -D -d docs
-```
-
-`-d docs` makes all the website files go into the folder `docs`.  
-
-#### Push to the remote github repo 
-```
-git add .
-git commit -m"Update content"
-git push origin master
-```
 
 ## Change syntax highlighting
 This hugo template uses [prism](https://prismjs.com/) to manage the syntax highlighting, which means we cannot make changes by using the following lines from the `config.toml`.
