@@ -3,267 +3,267 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dldingluo.com/posts_copy/creating-a-new-theme/</loc>
+    <loc>https://dingdl.github.io/posts_copy/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/posts_copy/creation-dun-nouveau-theme/"
+                href="https://dingdl.github.io/fr/posts_copy/creation-dun-nouveau-theme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/posts_copy/creating-a-new-theme/"
+                href="https://dingdl.github.io/posts_copy/creating-a-new-theme/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts_copy/migrate-from-jekyll/</loc>
+    <loc>https://dingdl.github.io/posts_copy/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts/2021/03/101-series-pyspark-and-databricks/</loc>
+    <loc>https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/categories/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://dldingluo.com/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dldingluo.com/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/categories/development/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/tags/development/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/</loc>
+    <loc>https://dingdl.github.io/categories/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/"
+                href="https://dingdl.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/"
+                href="https://dingdl.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/go/</loc>
+    <loc>https://dingdl.github.io/categories/development/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/golang/</loc>
+    <loc>https://dingdl.github.io/tags/development/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/categories/golang/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/series/hugo-101/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/posts/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dldingluo.com/series/</loc>
+    <loc>https://dingdl.github.io/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/series/"
+                href="https://dingdl.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/series/"
+                href="https://dingdl.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/</loc>
+    <loc>https://dingdl.github.io/tags/go/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/golang/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/categories/golang/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/series/hugo-101/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/posts/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/series/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/tags/"
+                href="https://dingdl.github.io/fr/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/tags/"
+                href="https://dingdl.github.io/series/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/templates/</loc>
+    <loc>https://dingdl.github.io/tags/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://dingdl.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dingdl.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dingdl.github.io/tags/templates/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/themes/</loc>
+    <loc>https://dingdl.github.io/tags/themes/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/data-analytics/</loc>
+    <loc>https://dingdl.github.io/tags/data-analytics/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/geospatial/</loc>
+    <loc>https://dingdl.github.io/tags/geospatial/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/gps/</loc>
+    <loc>https://dingdl.github.io/tags/gps/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/kepler.gl/</loc>
+    <loc>https://dingdl.github.io/tags/kepler.gl/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</loc>
+    <loc>https://dingdl.github.io/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/visualization/</loc>
+    <loc>https://dingdl.github.io/tags/visualization/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/categories/visualiztion/</loc>
+    <loc>https://dingdl.github.io/categories/visualiztion/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/101-series/</loc>
+    <loc>https://dingdl.github.io/tags/101-series/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</loc>
+    <loc>https://dingdl.github.io/posts/2021/02/101-series-unit-testing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/data-science/</loc>
+    <loc>https://dingdl.github.io/tags/data-science/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/python/</loc>
+    <loc>https://dingdl.github.io/tags/python/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/categories/python/</loc>
+    <loc>https://dingdl.github.io/categories/python/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/unit-testing/</loc>
+    <loc>https://dingdl.github.io/tags/unit-testing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/categories/unit-testing/</loc>
+    <loc>https://dingdl.github.io/categories/unit-testing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts/2021/02/posts0/</loc>
+    <loc>https://dingdl.github.io/posts/2021/02/posts0/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/research/</loc>
+    <loc>https://dingdl.github.io/research/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/about/</loc>
+    <loc>https://dingdl.github.io/about/</loc>
     <lastmod>2021-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts_copy/</loc>
+    <loc>https://dingdl.github.io/posts_copy/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/posts_copy/"
+                href="https://dingdl.github.io/fr/posts_copy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/posts_copy/"
+                href="https://dingdl.github.io/posts_copy/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts_copy/goisforlovers/</loc>
+    <loc>https://dingdl.github.io/posts_copy/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/posts_copy/introduction-aux-modeles-hugo/"
+                href="https://dingdl.github.io/fr/posts_copy/introduction-aux-modeles-hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/posts_copy/goisforlovers/"
+                href="https://dingdl.github.io/posts_copy/goisforlovers/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/posts_copy/hugoisforlovers/</loc>
+    <loc>https://dingdl.github.io/posts_copy/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://dldingluo.com/fr/posts_copy/debuter-avec-hugo/"
+                href="https://dingdl.github.io/fr/posts_copy/debuter-avec-hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dldingluo.com/posts_copy/hugoisforlovers/"
+                href="https://dingdl.github.io/posts_copy/hugoisforlovers/"
                 />
   </url>
   
   <url>
-    <loc>https://dldingluo.com/tags/hugo/</loc>
+    <loc>https://dingdl.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   

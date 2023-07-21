@@ -10,7 +10,7 @@ This document is a brief primer on using Go templates." />
 <meta name="keywords" content=", go, golang, templates, themes, development" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://dldingluo.com/posts_copy/goisforlovers/" />
+<link rel="canonical" href="https://dingdl.github.io/posts_copy/goisforlovers/" />
 
 
     <title>
@@ -26,17 +26,17 @@ This document is a brief primer on using Go templates." />
 
 
 
-<link rel="stylesheet" href="https://dldingluo.com/main.90f2f3c9e90e220405a814b03a65c405000b7ea743835445c33863081b723748.css">
+<link rel="stylesheet" href="https://dingdl.github.io/main.90f2f3c9e90e220405a814b03a65c405000b7ea743835445c33863081b723748.css">
 
 
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dldingluo.com/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://dldingluo.com/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dldingluo.com/favicon-16x16.png">
-    <link rel="manifest" href="https://dldingluo.com/site.webmanifest">
-    <link rel="mask-icon" href="https://dldingluo.com/safari-pinned-tab.svg" color="#1b1c1d">
-    <link rel="shortcut icon" href="https://dldingluo.com/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dingdl.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dingdl.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dingdl.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://dingdl.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://dingdl.github.io/safari-pinned-tab.svg" color="#1b1c1d">
+    <link rel="shortcut icon" href="https://dingdl.github.io/favicon.ico">
     <meta name="msapplication-TileColor" content="#1b1c1d">
     <meta name="theme-color" content="#1b1c1d">
 
@@ -48,14 +48,14 @@ This document is a brief primer on using Go templates.">
 <meta itemprop="datePublished" content="2014-04-02T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2014-04-02T00:00:00+00:00" />
 <meta itemprop="wordCount" content="1488">
-<meta itemprop="image" content="https://dldingluo.com"/>
+<meta itemprop="image" content="https://dingdl.github.io"/>
 
 
 
 <meta itemprop="keywords" content="go,golang,templates,themes,development," />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://dldingluo.com"/>
+<meta name="twitter:image" content="https://dingdl.github.io"/>
 
 <meta name="twitter:title" content="(Hu)go Template Primer"/>
 <meta name="twitter:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
@@ -68,10 +68,10 @@ This document is a brief primer on using Go templates."/>
 <meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://dldingluo.com/posts_copy/goisforlovers/" />
-<meta property="og:image" content="https://dldingluo.com"/>
+<meta property="og:url" content="https://dingdl.github.io/posts_copy/goisforlovers/" />
+<meta property="og:image" content="https://dingdl.github.io"/>
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" /><meta property="og:see_also" content="https://dldingluo.com/posts_copy/creating-a-new-theme/" /><meta property="og:see_also" content="https://dldingluo.com/posts_copy/migrate-from-jekyll/" /><meta property="og:see_also" content="https://dldingluo.com/posts/2021/03/101-series-pyspark-and-databricks/" /><meta property="og:see_also" content="https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/" /><meta property="og:see_also" content="https://dldingluo.com/posts/2021/02/101-series-unit-testing/" />
+<meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" /><meta property="og:see_also" content="https://dingdl.github.io/posts_copy/creating-a-new-theme/" /><meta property="og:see_also" content="https://dingdl.github.io/posts_copy/migrate-from-jekyll/" /><meta property="og:see_also" content="https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/" /><meta property="og:see_also" content="https://dingdl.github.io/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/" /><meta property="og:see_also" content="https://dingdl.github.io/posts/2021/02/101-series-unit-testing/" />
 
 
 
@@ -101,7 +101,7 @@ This document is a brief primer on using Go templates." />
         <div class="container">
             <header class="header">
     <span class="header__inner">
-        <a href="https://dldingluo.com/" style="text-decoration: none;">
+        <a href="https://dingdl.github.io/" style="text-decoration: none;">
     <div class="logo">
         
             <span class="logo__mark">&gt;</span>
@@ -119,7 +119,7 @@ This document is a brief primer on using Go templates." />
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://dldingluo.com/about/">About Me</a></li><li><a href="https://dldingluo.com/research/">Research</a></li>
+    <ul class="menu__inner"><li><a href="https://dingdl.github.io/about/">About Me</a></li><li><a href="https://dingdl.github.io/research/">Research</a></li>
     </ul>
 </nav>
 
@@ -143,14 +143,14 @@ This document is a brief primer on using Go templates." />
             
                 Also available in
                 
-                    <a href="https://dldingluo.com/fr/posts_copy/introduction-aux-modeles-hugo/"><span class="flag flag-icon flag-icon-fr flag-icon-squared"></span></a>
+                    <a href="https://dingdl.github.io/fr/posts_copy/introduction-aux-modeles-hugo/"><span class="flag flag-icon flag-icon-fr flag-icon-squared"></span></a>
                 
             
             </p>
         </div>
 
         <article>
-            <h2 class="post-title"><a href="https://dldingluo.com/posts_copy/goisforlovers/">(Hu)go Template Primer</a></h2>
+            <h2 class="post-title"><a href="https://dingdl.github.io/posts_copy/goisforlovers/">(Hu)go Template Primer</a></h2>
 
             
             
@@ -199,7 +199,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="https://dldingluo.com/layout/variables">variables</a> page.</p>
+<a href="https://dingdl.github.io/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -210,7 +210,7 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions</h2>
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="https://dldingluo.com/layout/functions">Hugo template
+available functions with their own. <a href="https://dingdl.github.io/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -341,7 +341,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="https://dldingluo.com/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://dingdl.github.io/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
@@ -406,11 +406,11 @@ so, such as in this example:</p>
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
 
-        <span class="tag"><a href="https://dldingluo.com/tags/go/">go</a></span>
-        <span class="tag"><a href="https://dldingluo.com/tags/golang/">golang</a></span>
-        <span class="tag"><a href="https://dldingluo.com/tags/templates/">templates</a></span>
-        <span class="tag"><a href="https://dldingluo.com/tags/themes/">themes</a></span>
-        <span class="tag"><a href="https://dldingluo.com/tags/development/">development</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/tags/go/">go</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/tags/golang/">golang</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/tags/templates/">templates</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/tags/themes/">themes</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/tags/development/">development</a></span>
         
     </p>
 
@@ -418,8 +418,8 @@ so, such as in this example:</p>
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
 
-        <span class="tag"><a href="https://dldingluo.com/categories/development/">Development</a></span>
-        <span class="tag"><a href="https://dldingluo.com/categories/golang/">golang</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/categories/development/">Development</a></span>
+        <span class="tag"><a href="https://dingdl.github.io/categories/golang/">golang</a></span>
         
     </p>
 
@@ -432,9 +432,9 @@ so, such as in this example:</p>
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2021</span>
-            <span><a href="https://dldingluo.com">Ding Luo</a></span>
-            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span><span><a href="https://dldingluo.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            <span>&copy; 2023</span>
+            <span><a href="https://dingdl.github.io">Ding Luo</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span><span><a href="https://dingdl.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
         </div>
     </div>
     <div class="footer__inner">
@@ -452,7 +452,7 @@ so, such as in this example:</p>
 
 
 
-<script type="text/javascript" src="https://dldingluo.com/bundle.min.22bc59bd77bab948bc8480845d7df3a12ab45989994e86b337cf587b7970b10c5e56b34cfb02bd2d4808a5a6df65a39561a70bf98e36ac9aea4de2998b176f4c.js" integrity="sha512-IrxZvXe6uUi8hICEXX3zoSq0WYmZToazN89Ye3lwsQxeVrNM&#43;wK9LUgIpabfZaOVYacL&#43;Y42rJrqTeKZixdvTA=="></script>
+<script type="text/javascript" src="https://dingdl.github.io/bundle.min.22bc59bd77bab948bc8480845d7df3a12ab45989994e86b337cf587b7970b10c5e56b34cfb02bd2d4808a5a6df65a39561a70bf98e36ac9aea4de2998b176f4c.js" integrity="sha512-IrxZvXe6uUi8hICEXX3zoSq0WYmZToazN89Ye3lwsQxeVrNM&#43;wK9LUgIpabfZaOVYacL&#43;Y42rJrqTeKZixdvTA=="></script>
     
 <script type="application/javascript">
 var doNotTrack = false;

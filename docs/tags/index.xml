@@ -2,99 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ding Luo</title>
-    <link>https://dldingluo.com/tags/</link>
+    <link>https://dingdl.github.io/tags/</link>
     <description>Recent content in Tags on Ding Luo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dldingluo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dingdl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
-      <link>https://dldingluo.com/tags/development/</link>
+      <link>https://dingdl.github.io/tags/development/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/development/</guid>
+      <guid>https://dingdl.github.io/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://dldingluo.com/tags/go/</link>
+      <link>https://dingdl.github.io/tags/go/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/go/</guid>
+      <guid>https://dingdl.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://dldingluo.com/tags/golang/</link>
+      <link>https://dingdl.github.io/tags/golang/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/golang/</guid>
+      <guid>https://dingdl.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://dldingluo.com/tags/templates/</link>
+      <link>https://dingdl.github.io/tags/templates/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/templates/</guid>
+      <guid>https://dingdl.github.io/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://dldingluo.com/tags/themes/</link>
+      <link>https://dingdl.github.io/tags/themes/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/themes/</guid>
+      <guid>https://dingdl.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data analytics</title>
-      <link>https://dldingluo.com/tags/data-analytics/</link>
+      <link>https://dingdl.github.io/tags/data-analytics/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/data-analytics/</guid>
+      <guid>https://dingdl.github.io/tags/data-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>geospatial</title>
-      <link>https://dldingluo.com/tags/geospatial/</link>
+      <link>https://dingdl.github.io/tags/geospatial/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/geospatial/</guid>
+      <guid>https://dingdl.github.io/tags/geospatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gps</title>
-      <link>https://dldingluo.com/tags/gps/</link>
+      <link>https://dingdl.github.io/tags/gps/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/gps/</guid>
+      <guid>https://dingdl.github.io/tags/gps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kepler.gl</title>
-      <link>https://dldingluo.com/tags/kepler.gl/</link>
+      <link>https://dingdl.github.io/tags/kepler.gl/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/kepler.gl/</guid>
+      <guid>https://dingdl.github.io/tags/kepler.gl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>visualization</title>
-      <link>https://dldingluo.com/tags/visualization/</link>
+      <link>https://dingdl.github.io/tags/visualization/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dldingluo.com/tags/visualization/</guid>
+      <guid>https://dingdl.github.io/tags/visualization/</guid>
       <description></description>
     </item>
     

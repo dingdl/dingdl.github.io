@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Ding Luo</title>
-        <link>https://dldingluo.com/posts/</link>
+        <link>https://dingdl.github.io/posts/</link>
         <description>Recent content in Posts on Ding Luo</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://dldingluo.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://dingdl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>101 Series - PySpark and Databricks</title>
-            <link>https://dldingluo.com/posts/2021/03/101-series-pyspark-and-databricks/</link>
+            <link>https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/</link>
             <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
             
-            <guid>https://dldingluo.com/posts/2021/03/101-series-pyspark-and-databricks/</guid>
+            <guid>https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/</guid>
             <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
             <content type="html"><![CDATA[<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
@@ -288,10 +288,10 @@ so, such as in this example:</p>
         
         <item>
             <title>Preparing GPS data for kepler.gl trip visualization</title>
-            <link>https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</link>
+            <link>https://dingdl.github.io/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</link>
             <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
             
-            <guid>https://dldingluo.com/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</guid>
+            <guid>https://dingdl.github.io/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</guid>
             <description>Over the past years I have been using kepler.gl more and more often for geospatial visualiztion. The reason is just simple: powerful, easy, fast. It serves as a perfect visualization tool for EDA tasks. Very often when I show the visualization to my stakeholders, especially those who are from the traditional business side, they are immediately impressed!
 In this post, I want to simply share some python scripts for preparing GPS trajectory data for kepler.</description>
             <content type="html"><![CDATA[<p>Over the past years I have been using <a href="https://kepler.gl/">kepler.gl</a> more and more often for geospatial visualiztion. The reason is
@@ -378,10 +378,10 @@ I will try to share the dataset as well.</p>
         
         <item>
             <title>101 Series - Unit Testing</title>
-            <link>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</link>
+            <link>https://dingdl.github.io/posts/2021/02/101-series-unit-testing/</link>
             <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
             
-            <guid>https://dldingluo.com/posts/2021/02/101-series-unit-testing/</guid>
+            <guid>https://dingdl.github.io/posts/2021/02/101-series-unit-testing/</guid>
             <description>On my recent project, I have been learning a bunch of new things, which from my very own perspective are crucial to someone who wants to become a full-fledged data scientist (i.e., research &amp;amp; development). I am really excited about learning and practicing these new tools and skills on the job, and therefore decide to create my personal 101 series on them. The plan is to continously update and improve the content.</description>
             <content type="html"><![CDATA[<p>On my recent project, I have been learning a bunch of new things, which from my very own perspective are crucial to
 someone who wants to become a full-fledged data scientist (i.e., research &amp; development). I am really excited about learning and practicing these new
@@ -474,10 +474,10 @@ dependency variables and functions so that only what the functions are designed 
         
         <item>
             <title>posts[0]</title>
-            <link>https://dldingluo.com/posts/2021/02/posts0/</link>
+            <link>https://dingdl.github.io/posts/2021/02/posts0/</link>
             <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
             
-            <guid>https://dldingluo.com/posts/2021/02/posts0/</guid>
+            <guid>https://dingdl.github.io/posts/2021/02/posts0/</guid>
             <description>Recently I have found the motto below very motivating, which was quoted by one of our team members when trying to resolve a comment on his pull request.
 So let&amp;rsquo;s kick off this post section and try to build stuff continously and incrementally.
  </description>
