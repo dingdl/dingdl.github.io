@@ -30,6 +30,16 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Research</title>
+      <link>https://dingdl.github.io/research/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dingdl.github.io/research/</guid>
+      <description>Publications All my academic publications, along with their citations, are well recorded and tracked in my Google Scholar profile.
+2022 - Present: Research on Mobility Electrification I have the ambition to not only keep my research identity, but even further strengthen it after leaving academia and working in the industry. Completing my PhD does not mean that my research activities have stopped. Since my career started in industry, I have always made effort to actively be involved in various internal and external research activities, including</description>
+    </item>
+    
+    <item>
       <title>101 Series - PySpark and Databricks</title>
       <link>https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
@@ -70,23 +80,13 @@ So let&amp;rsquo;s kick off this post section and try to build stuff continously
     </item>
     
     <item>
-      <title>Research</title>
-      <link>https://dingdl.github.io/research/</link>
-      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingdl.github.io/research/</guid>
-      <description>Entitled &amp;quot;Data-driven Analysis and Modeling of Public Transport Passenger Flows and Service Networks&amp;quot;, my PhD dissertation is about researching methods and models for developing insights into complex dynamics of public transport systems. These insights, which are unlocked through advanced data analytics, can be used to improve public transport planning and operations for building a better passenger mobility system for our society.
-  Scientific Publications The research I conducted during my PhD has been published in the following well regarded academic journals in the domain of transport science.</description>
-    </item>
-    
-    <item>
       <title>About Me</title>
       <link>https://dingdl.github.io/about/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dingdl.github.io/about/</guid>
-      <description>Hello there! Welcome to my personal website. I am a (researcher-turned) data scientist based in the Netherlands. Currently I work for Shell primarily in the space of E-Mobility data analytics. I joined Shell as an AI resident straight after after completing my PhD program at TU Delft. Check out the research page for more details about what I did to earn the title of Dr.
-In addition to my full-time role, I am also a guest researcher hosted by TU Delft&amp;rsquo;s AI for Mobility (AIM) Lab.</description>
+      <description>After obtaining my PhD from TU Delft in February 2020, I left academia and joined Shell as a data scientist in March.
+I have had the precious opportunity to get myself exposed to one of the most fundamental things of our society - energy. I am now motivated to develope myself towards becoming an energy professional who knows how to combine domain knowledge and technical skills to solve complex problems.</description>
     </item>
     
     <item>

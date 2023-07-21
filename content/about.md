@@ -6,14 +6,26 @@ aliases = ["introduction"]
   name = "Ding Luo"
 +++
 
-Hello there! Welcome to my personal website. I am a (researcher-turned) data scientist based in the Netherlands.
-Currently I work for Shell primarily in the space of E-Mobility data analytics. I joined Shell as an [AI resident](https://www.shell.com/energy-and-innovation/digitalisation/digital-technologies/shell-ai/shell-ai-residency-programme.html) straight
-after after completing my PhD program at TU Delft. Check out the [research page](../research) for more details about what I did to earn
-the title of Dr.
+After obtaining my PhD from TU Delft in February 2020, I left academia and joined Shell as a data scientist in March.
 
-In addition to my full-time role, I am also a guest researcher hosted by TU Delft's
-[AI for Mobility (AIM) Lab](https://www.tudelft.nl/citg/aim). The main purpose of this 0-fte role is to seek research and education collaboration 
-opportunities at the intersection of data science, energy and mobility. 
+I have had the precious opportunity to get myself exposed to one of the most fundamental things of our society - energy.
+I am now motivated to develope myself towards becoming an energy professional who knows how to combine domain knowledge 
+and technical skills to solve complex problems.
+
+
+[comment]: <> (Hello there! Welcome to my personal website. I am a &#40;researcher-turned&#41; data scientist based in the Netherlands.)
+
+[comment]: <> (Currently I work for Shell primarily in the space of E-Mobility data analytics. I joined Shell as an [AI resident]&#40;https://www.shell.com/energy-and-innovation/digitalisation/digital-technologies/shell-ai/shell-ai-residency-programme.html&#41; straight)
+
+[comment]: <> (after after completing my PhD program at TU Delft. Check out the [research page]&#40;../research&#41; for more details about what I did to earn)
+
+[comment]: <> (the title of Dr.)
+
+[comment]: <> (In addition to my full-time role, I am also a guest researcher hosted by TU Delft's)
+
+[comment]: <> ([AI for Mobility &#40;AIM&#41; Lab]&#40;https://www.tudelft.nl/citg/aim&#41;. The main purpose of this 0-fte role is to seek research and education collaboration )
+
+[comment]: <> (opportunities at the intersection of data science, energy and mobility. )
 
 
 [comment]: <> (My project experience includes:)
@@ -24,10 +36,11 @@ opportunities at the intersection of data science, energy and mobility.
 
 [comment]: <> (- Predictive maintenance of compressors with process information &#40;PI&#41; tag data)
 
-During my PhD, I worked on two EU Horizon 2020 R&D projects which fully funded my research.
+[comment]: <> (During my PhD, I worked on two EU Horizon 2020 R&D projects which fully funded my research.)
 
-- [SETA](http://setamobility.weebly.com/): An open, sustainable, ubiquitous data and service ecosystem for efficient, effective, safe, resilient mobility in metropolitan areas
-- [My-TRAC](http://www.my-trac.eu/): research and development of user-centric services to enhance the passenger multimodal door-to-door experience
+[comment]: <> (- [SETA]&#40;http://setamobility.weebly.com/&#41;: An open, sustainable, ubiquitous data and service ecosystem for efficient, effective, safe, resilient mobility in metropolitan areas)
+
+[comment]: <> (- [My-TRAC]&#40;http://www.my-trac.eu/&#41;: research and development of user-centric services to enhance the passenger multimodal door-to-door experience)
 
 My technology experience includes:
 - **Languages**: Python, SQL

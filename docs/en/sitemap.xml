@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://dingdl.github.io/research/</loc>
+    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url>
@@ -205,11 +210,6 @@
   <url>
     <loc>https://dingdl.github.io/posts/2021/02/posts0/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/research/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
