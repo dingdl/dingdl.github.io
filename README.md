@@ -51,5 +51,17 @@ Instead, we need to download the `prism.js` and `prism.css` files of our selecte
 /themes/hello-friend-ng/assets/scss/
 ```
 
+## Add Visitor Map
+This is realised by adding the code below in `./themes/hello-friend-ng/layouts/partials/footer.html`. 
+This means the hugo template used is modified, so that the visitor map is automatically embedded in html files.  
+The widget is provided by [ClustrMaps](https://clustrmaps.com/profile/).
+```html
+<div style="margin: 0 auto; display: flex; justify-content: center; align-items: center; width: 350px; max-width: 100%;">
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=e64980&w=a&t=n&d=pRvWlboCTPMHr2BggBYCEbhCYFy-bMIgytf0lIjXrVM&co=ffffff&cmn=45c7b9&cmo=121211&ct=3c4a45'></script>
+</div>
+```
+
+
+
 ## On Windows
 Download `hugo_xxxxx_Windows-64bit.zip` from [hugo releases](https://github.com/gohugoio/hugo/releases). Unzip the file and put the `hugo.exe` file in the root folder. To check the version of Hugo, enter the folder in terminal (e.g., powershell) and run `.\hugo.exe version`. You should be able to see something like `Hugo Static Site Generator v0.74.2-48565DE6 windows/amd64 BuildDate: 2020-07-17T17:22:50Z`.
