@@ -6,11 +6,24 @@ aliases = ["introduction"]
   name = "Ding Luo"
 +++
 
-After obtaining my PhD from TU Delft in February 2020, I left academia and joined Shell as a data scientist in March.
+I began industrial data science career within the energy sector after earning my PhD from TU Delft in February 2020. 
+Presently, I hold the position of Senior Data Scientist at Shell's Global People Analytics Team based in The Hague, Netherlands. 
+Prior to this assignment, I worked across a few Shell businesses providing data science and digital solutions, with a special
+emphasis on mobility electrification.
 
-I have had the precious opportunity to get myself exposed to one of the most fundamental things of our society - energy.
-I am now motivated to develope myself towards becoming an energy professional who knows how to combine domain knowledge 
-and technical skills to solve complex problems.
+In my current capacity, my role is multifaceted, demanding a diverse array of skills and expertise. At the core of my 
+responsibilities is the execution of advanced analytics on workforce and organizational dynamics, leveraging both HR and
+business data to uncover insightful trends and patterns. In parallel, I spearhead the development of cloud-based digital tools, such as Plotly Dash applications, which are pivotal in enhancing decision-making processes within HR.
+
+This position affords me the unique opportunity to meld and expand upon my technical proficiency with strategic acumen. 
+It's a role that not only draws upon my background in data science but also allows me to contribute meaningfully to the 
+evolution of HR practices through innovative technological solutions.
+
+[//]: # (I have had the precious opportunity to get myself exposed to one of the most fundamental things of our society - energy.)
+
+[//]: # (I am now motivated to develope myself towards becoming an energy professional who knows how to combine domain knowledge )
+
+[//]: # (and technical skills to solve complex problems.)
 
 
 [comment]: <> (Hello there! Welcome to my personal website. I am a &#40;researcher-turned&#41; data scientist based in the Netherlands.)
