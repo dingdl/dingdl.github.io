@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://dingdl.github.io/posts_copy/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -15,24 +14,29 @@
                 hreflang="en"
                 href="https://dingdl.github.io/posts_copy/creating-a-new-theme/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts_copy/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://dingdl.github.io/</loc>
+    <lastmod>2023-07-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://dingdl.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dingdl.github.io/"
+                />
+  </url><url>
     <loc>https://dingdl.github.io/research/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts/2021/03/101-series-pyspark-and-databricks/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/categories/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,59 +49,28 @@
                 hreflang="en"
                 href="https://dingdl.github.io/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/categories/development/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/development/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dingdl.github.io/</loc>
+  </url><url>
+    <loc>https://dingdl.github.io/categories/development/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://dingdl.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dingdl.github.io/"
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/go/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/golang/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/categories/golang/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/series/hugo-101/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/series/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -110,9 +83,7 @@
                 hreflang="en"
                 href="https://dingdl.github.io/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -125,99 +96,61 @@
                 hreflang="en"
                 href="https://dingdl.github.io/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/templates/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/themes/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/data-analytics/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/geospatial/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/gps/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/kepler.gl/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/visualization/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/categories/visualiztion/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/101-series/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts/2021/02/101-series-unit-testing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/data-science/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/python/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/categories/python/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/unit-testing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/categories/unit-testing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts/2021/02/posts0/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/about/</loc>
     <lastmod>2021-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts_copy/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -230,9 +163,7 @@
                 hreflang="en"
                 href="https://dingdl.github.io/posts_copy/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts_copy/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -245,9 +176,7 @@
                 hreflang="en"
                 href="https://dingdl.github.io/posts_copy/goisforlovers/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/posts_copy/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -260,11 +189,10 @@
                 hreflang="en"
                 href="https://dingdl.github.io/posts_copy/hugoisforlovers/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dingdl.github.io/posts/1/01/</loc>
   </url>
-  
 </urlset>

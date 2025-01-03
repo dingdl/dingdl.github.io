@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://dingdl.github.io/fr/categories/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/posts_copy/creation-dun-nouveau-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/posts_copy/creation-dun-nouveau-theme/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,14 +40,10 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/categories/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/posts_copy/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -65,9 +56,7 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/posts_copy/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/posts_copy/debuter-avec-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -80,14 +69,10 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/posts_copy/debuter-avec-hugo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/posts_copy/introduction-aux-modeles-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -100,9 +85,7 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/posts_copy/introduction-aux-modeles-hugo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,9 +97,7 @@
                 hreflang="fr"
                 href="https://dingdl.github.io/fr/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dingdl.github.io/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -129,5 +110,4 @@
                 href="https://dingdl.github.io/fr/tags/"
                 />
   </url>
-  
 </urlset>

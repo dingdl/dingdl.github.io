@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts_copies on Ding Luo</title>
+    <link>http://localhost:1313/fr/posts_copy/</link>
+    <description>Recent content in Posts_copies on Ding Luo</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/posts_copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création d&#39;un nouveau thème</title>
+      <link>http://localhost:1313/fr/posts_copy/creation-dun-nouveau-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/posts_copy/creation-dun-nouveau-theme/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;&#xA;&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Débuter avec Hugo</title>
+      <link>http://localhost:1313/fr/posts_copy/debuter-avec-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/posts_copy/debuter-avec-hugo/</guid>
+      <description>&lt;h2 id=&#34;étape-1-installer-hugo&#34;&gt;Étape 1. Installer Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Allez sur la page de téléchargements de&#xA;&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo&lt;/a&gt; et téléchargez la version&#xA;appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt;/p&gt;&#xA;&lt;p&gt;Sauvegardez le fichier téléchargé à un endroit précis, afin de l&amp;rsquo;utiliser dans&#xA;l&amp;rsquo;étape suivante.&lt;/p&gt;&#xA;&lt;p&gt;Des informations plus complètes sont disponibles sur la page&#xA;&lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction aux modèles (Hu)go</title>
+      <link>http://localhost:1313/fr/posts_copy/introduction-aux-modeles-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/posts_copy/introduction-aux-modeles-hugo/</guid>
+      <description>&lt;p&gt;Hugo utilise l&amp;rsquo;excellente librairie &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; pour&#xA;son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit&#xA;nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour&#xA;créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de&#xA;modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de&#xA;similitudes avec les modèles go.&lt;/p&gt;&#xA;&lt;p&gt;Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates. La&#xA;&lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;documentation go&lt;/a&gt; fourni plus de détails.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

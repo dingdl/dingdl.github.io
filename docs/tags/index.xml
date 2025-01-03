@@ -4,99 +4,115 @@
     <title>Tags on Ding Luo</title>
     <link>https://dingdl.github.io/tags/</link>
     <description>Recent content in Tags on Ding Luo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dingdl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dingdl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://dingdl.github.io/tags/development/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>go</title>
+      <title>Go</title>
       <link>https://dingdl.github.io/tags/go/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/go/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://dingdl.github.io/tags/golang/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/golang/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>templates</title>
+      <title>Templates</title>
       <link>https://dingdl.github.io/tags/templates/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/templates/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>themes</title>
+      <title>Themes</title>
       <link>https://dingdl.github.io/tags/themes/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/themes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data analytics</title>
+      <title>Data Analytics</title>
       <link>https://dingdl.github.io/tags/data-analytics/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/data-analytics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>geospatial</title>
+      <title>Geospatial</title>
       <link>https://dingdl.github.io/tags/geospatial/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/geospatial/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gps</title>
+      <title>Gps</title>
       <link>https://dingdl.github.io/tags/gps/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/gps/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kepler.gl</title>
+      <title>Kepler.gl</title>
       <link>https://dingdl.github.io/tags/kepler.gl/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/kepler.gl/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>visualization</title>
+      <title>Visualization</title>
       <link>https://dingdl.github.io/tags/visualization/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://dingdl.github.io/tags/visualization/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>101 Series</title>
+      <link>https://dingdl.github.io/tags/101-series/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://dingdl.github.io/tags/101-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://dingdl.github.io/tags/data-science/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://dingdl.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://dingdl.github.io/tags/python/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://dingdl.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit Testing</title>
+      <link>https://dingdl.github.io/tags/unit-testing/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://dingdl.github.io/tags/unit-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://dingdl.github.io/tags/hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://dingdl.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

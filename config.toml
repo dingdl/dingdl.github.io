@@ -8,11 +8,11 @@ PygmentsUseClasses = true
 PygmentsCodeFences = true
 PygmentsStyle = "monokailight"
 
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+#paginate  = 10
+#rssLimit  = 10  # Maximum number of items in the RSS feed.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-googleAnalytics = "UA-173574303-1"
+#googleAnalytics = "UA-173574303-1"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -35,10 +35,15 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
+[pagination]
+  disableAliases = false
+  pagerSize = 20
+  path = 'page'
+
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
+[params.author]
   name = "Ding Luo"
 
 [blackfriday]
@@ -56,7 +61,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
-  # 
+  #
   description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
@@ -92,8 +97,8 @@ disableHugoGeneratorInject = false
   #
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
   #
   footerLeft = " "
   footerRight = " "
@@ -116,11 +121,11 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
+  # Commento is more than just a comments widget you can embed —
+  # it’s a return to the roots of the internet.
+  # An internet without the tracking and invasions of privacy.
+  # An internet that is simple and lightweight.
+  # An internet that is focused on interesting discussions, not ads.
   # A better internet.
   # Uncomment this to enable Commento.
   #

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geospatial on Ding Luo</title>
+    <link>http://localhost:1313/tags/geospatial/</link>
+    <description>Recent content in Geospatial on Ding Luo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/geospatial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preparing GPS data for kepler.gl trip visualization</title>
+      <link>http://localhost:1313/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/03/preparing-gps-data-for-kepler.gl-trip-visualization/</guid>
+      <description>&lt;p&gt;Over the past years I have been using &lt;a href=&#34;https://kepler.gl/&#34;&gt;kepler.gl&lt;/a&gt; more and more often for geospatial visualiztion. The reason is&#xA;just simple: powerful, easy, fast. It serves as a perfect visualization tool for EDA tasks. Very often when I show&#xA;the visualization to my stakeholders, especially those who are from the traditional business side, they are immediately&#xA;impressed!&lt;/p&gt;&#xA;&lt;p&gt;In this post, I want to simply share some python scripts for preparing GPS trajectory data for kepler.gl&amp;rsquo;s &lt;a href=&#34;https://docs.kepler.gl/docs/user-guides/c-types-of-layers/k-trip&#34;&gt;trip&#xA;visualization feature&lt;/a&gt;. This would help because&#xA;my experience is that most GPS trajectory data would share a similar structure with the key columns of trip ID, timestamp,&#xA;latitude, and longitude. Such data are always stored and shared in a tabular form, thus could be directly loaded&#xA;as a pandas dataframe. What the python scripts do is to further convert such a dataframe to the geojson file required by&#xA;kepler.gl.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
